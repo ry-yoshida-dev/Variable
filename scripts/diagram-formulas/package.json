@@ -1,0 +1,12 @@
+{
+  "name": "diagram-formulas",
+  "private": true,
+  "type": "module",
+  "description": "Renders the LaTeX formulas embedded in docs/images/variable-types.svg.",
+  "scripts": {
+    "render": "node render-formulas.mjs ../../docs/images/variable-types.svg"
+  },
+  "dependencies": {
+    "mathjax-full": "3.2.1"
+  }
+}
